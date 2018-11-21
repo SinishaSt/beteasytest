@@ -1,0 +1,72 @@
+.be-races {
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.be-races > div {
+    transition: .33s;
+}
+.be-races-header {
+    padding: 12px 14px;
+    color: white;
+    background-color: #8935c0;
+    border-radius: 4px 4px 0 0;   
+}
+.be-race-filter {
+    display: flex;
+    padding: 10px;
+}
+.be-race-filter button {
+    flex: 1;
+    margin-right: 5px;
+    height: 36px;
+    min-width: 40px;
+    background-color: white;
+    border: 1px solid #8935c0;
+    border-radius: 3px;
+    color: #8935c0;
+    text-transform: capitalize;
+    outline: none;
+    transition: .33s;  
+}
+
+.be-race-filter button.active,
+.be-race-filter button:hover {
+    color: white;
+    background: #8935c0;
+}
+.be-race-filter button:hover svg {
+    fill: #ffffff;
+}
+.list-item {
+    border-top: 1px solid #ebebeb;
+    font-size: 14px;
+}
+.list-item:hover {
+    background: #ebebeb;
+}
+.list-item > div{
+   display: inline-block;
+   margin: 5px;
+   
+}
+.list-item-type svg {
+    fill: #000000;
+}
+.list-item-venue {
+    text-align: left;
+}
+.list-item-venue span {
+      color: #cccccc;
+}
+.list-item-time {
+    float: right;
+    text-align: right;
+    color: #ff4b3d;
+}
+.be-error {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    color: #ff4b3d;
+}
